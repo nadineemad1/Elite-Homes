@@ -1,0 +1,137 @@
+
+.bg-primary-elite{
+    background-color:#541da0;
+}
+
+.bg-featured{
+    background-color:#F9FAFB;
+}
+.text-primary-elite{
+    background-color:#e6daf6;
+    border: 2px solid #b095d6;
+    color:#541da0
+}
+
+.btn-primary{
+     background:linear-gradient( to right, #7F22FE  ,#a23afd 70% ); 
+     border-color:#7F22FE  
+}
+
+.header-content{
+    transform: translateY(90px);
+}
+
+.person img{
+    width:46px;
+    height:46px;
+
+}
+
+img{
+    width:100%;
+}
+
+.description-photo .badge-percentage {
+    transform:translate(-10px,-10px);
+}
+
+.carousel-indicators [data-bs-target]{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+}
+
+.carousel-control-prev{
+    transform:translateX(-120px);
+}
+
+.carousel-control-next{
+    transform:translateX(120px);
+}
+
+header input:hover{
+
+    border: 3px double violet;
+    box-shadow: gray;
+}
+header select:hover{
+
+    border: 3px double violet;
+    box-shadow: 5px gray;
+}
+.card-photo .badge .fa-heart:hover{
+    color:var(--bs-danger) !important;
+    cursor:pointer;
+}
+
+.navbar .dropdown-menu{
+    width:1500px;
+    height:600px;
+
+}
+.dropdown-menu .photo {
+    width:80px;
+    height:80px;
+}
+
+.contact::before {
+    content:"";
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-color:rgb(192, 150, 244);
+    opacity:0.2;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    right:0;
+    transform:rotate(20deg) translateY(-120px);
+
+    
+}
+
+.contact::after {
+    content:"";
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-color:rgb(192, 150, 244);
+    position:absolute;
+    opacity:0.2;
+    z-index:0;
+    bottom:0;
+    left:0;
+    transform:rotate(20deg) translateY(150px);  
+}
+
+.contact2::before {
+    content:"";
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: solid 2px #541da0;
+    background-color:rgb(255, 255, 255);
+    opacity:0.2;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    right:0;
+    transform:translate(-80px,20px);
+
+    
+}
+
+.contact2::after {
+    content:"";
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: solid 2px #541da0;
+    background-color:rgb(255, 255, 255);
+    position:absolute;
+    opacity:0.2;
+    z-index:0;
+    bottom:0;
+    left:0;
+    transform:translate(8px,-4px); 
+}
